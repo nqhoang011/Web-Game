@@ -2,6 +2,10 @@
 Acceptance Criterial: 
 - User story: Là một người dùng, tôi muốn khi vào trang chủ giao diện dễ dùng, có hướng dẫn và có hướng dẫn để chơi các game
 - User story: Là một người dùng, tôi muốn trực tiếp chơi game trên trang web vì nó tiện lợi và không mất nhiều thời gian. 
+Acceptance Criterial:
+          + Khi tôi click vào 1 game nào đó giao diện chơi game sẽ được hiển thị lên trên màn hình
+          + Giao diện game bắt mắt
+          + Trò chơi có độ khó dễ, cho tôi cảm giác hấp dẫn và muốn chinh phục game 
 - User story: Là một người dùng, tôi muốn có nội dung Hướng dẫn chơi game để hiểu cách chơi và luật chơi của từng game
 Acceptance Criteria:
           + Khi tôi đến trang chủ từng game, tôi sẽ thấy nội dung game đó và button Hướng dẫn chơi game

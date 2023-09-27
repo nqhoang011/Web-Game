@@ -1,3 +1,4 @@
 User story: Là một người dùng, tôi muốn khi vào trang chủ tôi có thể lựa chọn game mình muốn chơi và chơi trực tiếp trên trang web đó
 Acceptance Criterial: 
 User story: Là một người dùng, tôi muốn khi vào trang chủ giao diện dễ dùng, có hướng dẫn và có hướng dẫn để chơi các game
+User story: Là một người dùng, tôi muốn trực tiếp được chơi game trên trang web vì nó tiện lợi và không mất nhiều thời gian. 

@@ -13,3 +13,8 @@ User story: Là một người dùng, tôi muốn được hướng dẫn và ch
 Acceptance Criterial: 
 1. Khi vào game, tôi được hướng dẫn cách chơi, và có thể bỏ qua nếu muốn.
 2. Khi vào game, tôi được chọn bên đỏ hoặc xanh.
+User story: Là một người dùng, tôi muốn khi chơi game doodle jump
+Acceptance Criterial: 
+          + Có thêm các chướng ngoại vật
+          + Tăng thêm độ khó như tốc độ rơi nhanh hơn
+          + Khi nhảy vào các thanh bị gãy thì sẽ rơi xuống

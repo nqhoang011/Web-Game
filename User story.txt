@@ -9,3 +9,7 @@ Acceptance Criteria:
           + Giao diện hướng dẫn chơi phải thiết kế gọn gàng, cụ thể và dễ đọc
           + Nội dung hướng dẫn bao gồm: cách chơi game, chức năng của từng phím nếu có, cách tính điểm, thời gian chơi...
           + Giao diện nên có vài hình ảnh chính mô tả cho game đó
+User story: Là một người dùng, tôi muốn được hướng dẫn và chơi game khi chơi game cờ vua
+Acceptance Criterial: 
+1. Khi vào game, tôi được hướng dẫn cách chơi, và có thể bỏ qua nếu muốn.
+2. Khi vào game, tôi được chọn bên đỏ hoặc xanh.

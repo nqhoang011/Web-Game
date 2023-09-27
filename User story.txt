@@ -1,0 +1,3 @@
+User story: Là một người dùng, tôi muốn khi vào trang chủ tôi có thể lựa chọn game mình muốn chơi và chơi trực tiếp trên trang web đó
+Acceptance Criterial: 
+

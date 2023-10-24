@@ -1,5 +1,5 @@
 (function(window){
-
+//
     var Game = {
     
         init: function(){

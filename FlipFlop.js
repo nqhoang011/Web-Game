@@ -43,15 +43,15 @@ function init() {
      flipCounter = 0;
      var minutes = 2;
      var display = document.getElementById("Timer");
-     blockFrontImages = ["Images/pokemon1.gif",
-        "Images/pokemon2.gif",
-        "Images/pokemon3.gif",
-        "Images/pokemon4.gif",
-        "Images/pokemon5.gif",
-        "Images/pokemon6.gif",
-        "Images/pokemon7.gif",
-        "Images/pokemon8.gif",
-        "Images/pokemon9.gif"];
+     blockFrontImages = ["pokemon1.gif",
+        "pokemon2.gif",
+        "pokemon3.gif",
+        "pokemon4.gif",
+        "pokemon5.gif",
+        "pokemon6.gif",
+        "pokemon7.gif",
+        "pokemon8.gif",
+        "pokemon9.gif"];
     // init();
     startTimer(minutes, display);
     blockFrontImagesAll = blockFrontImages.concat(blockFrontImages);
@@ -66,7 +66,7 @@ function createElements() {
     var finalCount = shuffledBlocks.length;
     for (var i = 0; i < finalCount; i++) {
         var cardFront = shuffledBlocks.pop();
-        blockData = new MemoryBlock(i, cardFront, "Images/pokemonBack.jpg");
+        blockData = new MemoryBlock(i, cardFront, "pokemonBack.jpg");
         memoryBlockArr[i] = blockData;
 
         divblock = document.createElement("div");

@@ -13,7 +13,7 @@ const MainPage = () => {
   };
 
 
-  const productData = fakeData()
+  const productData = fakeData
   return (
     <div>
 

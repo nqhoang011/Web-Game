@@ -1,5 +1,5 @@
-const fakeData = () => {
-    return [
+const fakeData =
+    [
         {
             id: 1,
             name: 'Tetris',
@@ -38,18 +38,58 @@ const fakeData = () => {
             id: 3,
             name: 'Sodoku',
             image: 'https://didongviet.vn/dchannel/wp-content/uploads/2023/07/cach-choi-sudoku-didongviet-3.jpg',
-            target: ``,
-            key: ``,
-            how: ``,
+            target: `Sudoku là một trò chơi logic thú vị, nơi bạn phải điền các số từ 1 đến 9 vào một lưới 9x9 sao cho mỗi hàng, mỗi cột và mỗi ô vuông 3x3 không có số nào lặp lại. Trò chơi này sẽ cho phép người chơi sử dụng chuột để chọn và điền số vào các ô trống của lưới Sudoku.`,
+            key: `Dùng Chuột`,
+            how: `Bước 1: Chuẩn bị lưới Sudoku
+
+            Bắt đầu trò chơi với một lưới Sudoku 9x9 được tạo sẵn với một số ô đã điền sẵn. Đảm bảo rằng lưới này là một câu đố hợp lệ và có một giải pháp duy nhất.
+            Bước 2: Hiển thị lưới Sudoku trên màn hình
+            
+            Hiển thị lưới Sudoku 9x9 trên màn hình của người chơi, sao cho mỗi ô trống được đại diện bằng một ô vuông có thể được chọn bằng chuột.
+            Bước 3: Sử dụng chuột để chọn ô và điền số
+            
+            Cho phép người chơi sử dụng chuột để chọn một ô trống trên lưới Sudoku. Khi một ô được chọn, ô này nên được đánh dấu hoặc nổi lên để người chơi biết rằng ô này đang được chọn.
+            
+            Người chơi có thể sử dụng chuột để chọn một số từ 1 đến 9 từ một bảng số có sẵn, sau đó kích chuột vào ô trống để điền số đã chọn.
+            
+            Bước 4: Kiểm tra tính hợp lệ
+            
+            Sau khi người chơi điền số vào một ô, hãy kiểm tra xem lần điền số đó có làm lưới Sudoku trở nên không hợp lệ (làm lặp lại số trong hàng, cột hoặc ô vuông 3x3). Nếu số điền làm lưới trở nên không hợp lệ, thì thông báo lỗi và cho phép người chơi sửa lại.
+            Bước 5: Kiểm tra hoàn thành
+            
+            Sau mỗi lần điền số, hãy kiểm tra xem lưới Sudoku đã được điền đúng và hoàn thành chưa. Nếu lưới đã hoàn thành, hiển thị thông báo chúc mừng người chơi đã giải xong và kết thúc trò chơi.
+            Bước 6: Kết thúc trò chơi
+            
+            Người chơi có thể chọn kết thúc trò chơi bất kỳ lúc nào, và trò chơi sẽ kết thúc, hiển thị thông báo về điểm số và thời gian hoàn thành (nếu muốn). Người chơi có thể chọn chơi lại hoặc thoát trò chơi.
+            Hãy lập trình theo hướng dẫn này để tạo một trò chơi Sudoku sử dụng chuột để điều khiển. Đảm bảo rằng trò chơi có tính hợp lệ và thú vị để người chơi thử thách khả năng giải đố của họ.
+            
+            `,
             link: '../store/Web-Game-sodokugame/index.html'
         },
         {
             id: 4,
             name: 'Cờ Caro',
             image: 'https://play-lh.googleusercontent.com/fwwLv0gGho1vtcoF4sISg0vbOISYeJChqxbP7tWmmddUVD1bLUtv_U8sNb6kAptZFA',
-            target: ``,
-            key: ``,
-            how: ``,
+            target: `Mục tiêu của mỗi người chơi là tạo thành một hàng ngang, hàng dọc hoặc đường chéo gồm 5 ô liền nhau chứa ký hiệu của mình trên bàn cờ. Hàng này có thể là hàng ngang, hàng dọc hoặc đường chéo.
+            Người chơi tạo thành hàng đầu tiên sẽ chiến thắng trò chơi.`,
+            key: `Các người chơi lần lượt đi, đặt các ký hiệu "X" hoặc "O" lên các ô trống trên bàn cờ.
+            Mỗi người chơi chỉ được đi vào một ô mỗi lượt.`,
+            how: `Bước 1: Xác định người chơi và quyền đi đầu
+
+            Cờ Caro thường được chơi bởi hai người, một người chơi sử dụng các ký hiệu "X" và người kia sử dụng "O".
+            Người chơi sử dụng ký hiệu "X" thường được phép đi trước.
+            Bước 2: Luân phiên đánh cờ
+            
+            Các người chơi lần lượt đi, đặt các ký hiệu "X" hoặc "O" lên các ô trống trên bàn cờ.
+            Mỗi người chơi chỉ được đi vào một ô mỗi lượt.
+            Bước 3: Mục tiêu giành chiến thắng
+            
+            Mục tiêu của mỗi người chơi là tạo thành một hàng ngang, hàng dọc hoặc đường chéo gồm 5 ô liền nhau chứa ký hiệu của mình trên bàn cờ. Hàng này có thể là hàng ngang, hàng dọc hoặc đường chéo.
+            Người chơi tạo thành hàng đầu tiên sẽ chiến thắng trò chơi.
+            Bước 4: Kết thúc và chơi lại
+            
+            Nếu toàn bộ bàn cờ được điền đầy mà không có ai giành chiến thắng, trò chơi được coi là hòa.
+            Sau khi trò chơi kết thúc, bạn có thể chơi lại bằng cách đặt lại bàn cờ và bắt đầu từ đầu.`,
             link: '../store/Web-Game-c-caro/index.html'
         },
         {
@@ -85,9 +125,11 @@ const fakeData = () => {
             id: 7,
             name: 'Doodle Jump',
             image: 'https://assets-prd.ignimgs.com/2022/03/16/doodlejump-1647405974576.jpg',
-            target: ``,
-            key: ``,
-            how: ``,
+            target: `Tăng điểm: Doodler sẽ được cộng thêm điểm khi:
+            Nhảy lên các thềm cao.
+            Đạt đến các thế giới mới.`,
+            key: `Điều khiển: Người chơi sử dụng phím "<-" và "->" để di chuyển Doodler sang trái hoặc phải. Để nhảy, người chơi sử dụng phím space .`,
+            how: `Cứ Việc Nhảy`,
             link: '../store/Web-Game-Doodle-Jump/index.html'
         },
         {
@@ -118,5 +160,5 @@ const fakeData = () => {
         },
     ]
 
-}
+
 export default fakeData

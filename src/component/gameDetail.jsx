@@ -6,7 +6,7 @@ import fakeData from "../fakedata";
 
 const GameDetail = () => {
     const [data, setData] = useState()
-    const gameList = fakeData()
+    const gameList = fakeData
 
     const { id } = useParams();
 
@@ -33,10 +33,10 @@ const GameDetail = () => {
                             src={data.image} alt={data.name} width={500} height={500} />
                     </div>
 
-                    <div style={{ width: "50%", maxHeight: "500px" }}>
+                    <div style={{ width: "50%", maxHeight: "600px", }}>
                         <div style={{ fontSize: '40px' }}>{data.name}</div>
                         <div style={{ textAlign: 'justify', lineHeight: "1.5", margin: "20px", }}>
-                            <div style={{ textAlign: 'justify', lineHeight: "1.5", fontSize: "15px" }}>
+                            <div style={{ textAlign: 'justify', lineHeight: "1.5", fontSize: "15px", maxHeight: "400px", overflow: "auto" }}>
                                 <div>1. Mục Tiêu:
                                     <div>{data.target}</div>
                                 </div>
